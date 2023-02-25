@@ -1,0 +1,34 @@
+export interface IPhone {
+    supportAndUpdates?: string;
+    usNetwork?: string[],
+    voLTE?: string;
+    networkSignal?: string;
+    mms?: string;
+    hotspotTethering?: string;
+    usbType?: string;
+    unlocked?: string;
+    joseRating?: number;
+    category?: string;
+    internationalNetwork?: string[];
+    operatingSystem?: string[];
+    gpsNavigation?: string[];
+    physicalFormat?: string;
+    removableBattery?: string;
+    browser?: string;
+    whatsApp?: string;
+    spotify?: string;
+    signal?: string;
+    headphoneJack?: string;
+    camera?: string;
+    dualSim?: string;
+    podcastMusic?: string[];
+    wifiCalling?: string[];
+    externalStorage?: string;
+    twoFactorAuth?: string;
+    voiceToText?: string;
+    keyboard?: string[];
+    calendar?: string[];
+    screenType?: string[];
+    simType?: string[];
+    rugged?: string;
+}
