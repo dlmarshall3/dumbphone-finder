@@ -1,0 +1,7 @@
+{
+  "name": "dumbphone-finder",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
