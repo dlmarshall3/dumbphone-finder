@@ -4,7 +4,15 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+    loadChildren: () => import('./tabs-folder/tabs/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
+    path: 'dumbphone-landing',
+    loadChildren: () => import('./pages/dumbphone-landing/dumbphone-landing.module').then( m => m.DumbphoneLandingPageModule)
+  },
+  {
+    path: 'phone/:id',
+    loadChildren: () => import('./pages/phone/phone.module').then( m => m.PhonePageModule)
   }
 ];
 @NgModule({

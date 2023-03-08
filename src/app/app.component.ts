@@ -6,5 +6,27 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
+  public Pages = [
+    {
+      title: 'Hello',
+      url: '',
+      icon: ''
+    },
+    {
+      title: 'Welcome Back',
+      url: '',
+      icon: ''
+    },
+    {
+      title: 'Goodbye',
+      url: '',
+      icon: ''
+    },
+  ];
+
   constructor() {}
+
+  public test(){
+    alert('woop');
+  }
 }

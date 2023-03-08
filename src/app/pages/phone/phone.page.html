@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{phoneData.name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img [src]="imagePath">
+  <h6><b>SUPPORT AND UPDATES:</b> {{phoneData.supportAndUpdates}}</h6>
+  <h6><b>NETWORK COMPATABILITY (USA):</b> {{phoneData.usNetwork}}</h6>
+  <h6><b>VOLTE:</b> {{phoneData.voLTE}}</h6>
+  <h6><b>NETWORK SIGNAL:</b> {{phoneData.networkSignal}}</h6>
+  <h6><b>MMS SUPPORT:</b> {{phoneData.mms}}</h6>
+  <h6><b>HOTSPOT/TETHERING:</b> {{phoneData.hotspotTethering}}</h6>
+  <h6><b>USB-TYPE:</b> {{phoneData.usbType}}</h6>
+  <h6><b>SOLD UNLOCKED:</b> {{phoneData.unlocked}}</h6>
+  <h6><b>JOSE'S RATING:</b> {{phoneData.joseRating}}</h6>
+  <h6><b>CATEGORY:</b> {{phoneData.category}}</h6>
+  <h6><b>NETWORK COMPATABILITY (INTERNATIONAL):</b> {{phoneData.internationalNetwork}}</h6>
+  <h6><b>OPERATING SYSTEM:</b> {{phoneData.operatingSystem}}</h6>
+  <h6><b>GPS/NAVIGATION:</b> {{phoneData.gpsNavigation}}</h6>
+  <h6><b>PHYSICAL FORMAT:</b> {{phoneData.physicalFormat}}</h6>
+  <h6><b>REMOVABLE BATTERY:</b> {{phoneData.removableBattery}}</h6>
+  <h6><b>BROWSER:</b> {{phoneData.browser}}</h6>
+  <h6><b>WHATSAPP:</b> {{phoneData.whatsApp}}</h6>
+  <h6><b>SPOTIFY:</b> {{phoneData.spotify}}</h6>
+  <h6><b>SIGNAL (APP):</b> {{phoneData.signal}}</h6>
+  <h6><b>HEADPHONE JACK:</b> {{phoneData.headphoneJack}}</h6>
+  <h6><b>CAMERA:</b> {{phoneData.camera}}</h6>
+  <h6><b>DUAL SIM:</b> {{phoneData.dualSim}}</h6>
+  <h6><b>PODCAST/MP3:</b> {{phoneData.podcastMusic}}</h6>
+  <h6><b>WIFI CALLING:</b> {{phoneData.wifiCalling}}</h6>
+  <h6><b>EXTERNAL STORAGE:</b> {{phoneData.externalStorage}}</h6>
+  <h6><b>2FA:</b> {{phoneData.twoFactorAuth}}</h6>
+  <h6><b>VOICE-TO-TEXT:</b> {{phoneData.voiceToText}}</h6>
+  <h6><b>KEYBOARD:</b> {{phoneData.keyboard}}</h6>
+  <h6><b>CALENDAR/CALENDAR SYNC:</b> {{phoneData.calendar}}</h6>
+  <h6><b>SCREEN TYPE:</b> {{phoneData.screenType}}</h6>
+  <h6><b>SIM TYPE:</b> {{phoneData.simType}}</h6>
+  <h6><b>RUGGED:</b> {{phoneData.rugged}}</h6>
+</ion-content>

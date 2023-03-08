@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { PhoneComponent } from './phone.component';
+import { PhoneMenuComponent } from './phone-menu.component';
 
-describe('PhoneComponent', () => {
-  let component: PhoneComponent;
-  let fixture: ComponentFixture<PhoneComponent>;
+describe('PhoneMenuComponent', () => {
+  let component: PhoneMenuComponent;
+  let fixture: ComponentFixture<PhoneMenuComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ PhoneComponent ],
+      declarations: [ PhoneMenuComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(PhoneComponent);
+    fixture = TestBed.createComponent(PhoneMenuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

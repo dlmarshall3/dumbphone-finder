@@ -1,0 +1,7 @@
+<app-phone-card 
+    *ngFor="let phone of phoneData; index as i" 
+    [phoneName]="phone.name" 
+    [phoneCategory]="phone.category"
+    [imagePath]="generateImagePath(phone.name)"
+    [index]="i">
+</app-phone-card>
